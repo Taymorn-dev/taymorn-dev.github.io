@@ -3,3 +3,18 @@ section {
   margin: 60px 0;
   border-bottom: 1px solid #eee;
 }
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #333;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none; /* removes underline */
+}
+
+.back-to-top:hover {
+  background-color: #555;
+}
